@@ -7,7 +7,7 @@ const config: MysqlConnectionOptions = {
   username: 'root',
   password: '1159951',
   database: 'parkingNest',
-  entities: ['dist/src/**/*.entity.ts'],
+  entities: ['dist/src/**/*.entity.js'],
   synchronize: false,
   migrations: ['dist/src/db/migrations/*.js'],
   cli: {
